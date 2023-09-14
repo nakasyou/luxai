@@ -1,6 +1,10 @@
 import Layout from '../layouts/Layout'
 import { defineRoute } from 'luxai'
 
+import {
+  writeFile
+} from 'luxai'
+
 export default defineRoute(() => {
   return <Layout title="Luxai">
     <div>
